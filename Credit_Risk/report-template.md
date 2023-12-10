@@ -21,12 +21,38 @@ In this section, describe the analysis you completed for the machine learning mo
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
 
 * Machine Learning Model 1:
-  * Description of Model 1 Accuracy, Precision, and Recall scores.
+  * Balanced Accuracy Score: 0.9520479254722232
+  * Confusion Matrix:
+    [[18663   102]
+    [   56   563]]
+  * Classification Report:
 
+                   precision    recall  f1-score   support
 
+           0       1.00      0.99      1.00     18765
+           1       0.85      0.91      0.88       619
+
+    accuracy                           0.99     19384
+   macro avg       0.92      0.95      0.94     19384
+weighted avg       0.99      0.99      0.99     19384
+
+The balanced accuracy score for this model is approximately 95%. Low-risk loan predictions [`0`] comes at a higher rate and recall (100%, 99% respectively) compared to high-risk loans [`1`] (85%, 91% respectively) making this model well suited for predicting the likelihood of healthy loan labels. In the confusion matrix we see there were 56 false positives, and 102 false negatives.
 
 * Machine Learning Model 2:
-  * Description of Model 2 Accuracy, Precision, and Recall scores.
+  * Balanced Accuracy Score: 0.9936781215845847
+  * Confusion Matrix:
+    [[18649   116]
+    [    4   615]]
+  * Classification Report:
+
+                  precision    recall  f1-score   support
+
+           0       1.00      0.99      1.00     18765
+           1       0.84      0.99      0.91       619
+
+    accuracy                           0.99     19384
+   macro avg       0.92      0.99      0.95     19384
+weighted avg       0.99      0.99      0.99     19384
 
 ## Summary
 
