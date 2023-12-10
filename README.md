@@ -19,4 +19,4 @@ Open the starter code notebook and use it to complete the following steps:
      * Print the classification report.
   4. Answer the following question: How well does the logistic regression model predict both the 0 (healthy loan) and 1 (high-risk loan) labels?
 # Credit Risk Analysis Report
-Pending
+A brief report that includes a summary and analysis of the performance of the machine learning models that were used in this project can be found [here](Credit_Risk/report-template.md) for reference purposes.
