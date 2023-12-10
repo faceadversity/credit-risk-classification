@@ -4,11 +4,17 @@
 
 In this section, describe the analysis you completed for the machine learning models used in this Challenge. This might include:
 
-* Explain the purpose of the analysis.
-* Explain what financial information the data was on, and what you needed to predict.
-* Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
-* Describe the stages of the machine learning process you went through as part of this analysis.
-* Briefly touch on any methods you used (e.g., `LogisticRegression`, or any resampling method).
+* The purpose of this analysis is to use various machine learning techniques to train and evaluate a transgression model in determining the accuracy for healthy and high risk loans.
+* The lending data provided includes the following: loan size, interest rate, borrower income, debt to income ratio, number of accounts, derrogatory marks, total debt and loan status.
+* The general goal was to predict if a loan is healthy or high-risk.
+* The target variable `y` is the `loan_status` which can be classified as 0 or 1 and our main focal point of predictive analysis. The healthy loan is represented by 0 while the high-risk loan is represented by 1.
+* Stages of the Machine Learning Process includes the following:
+  I. Data Collection and Preparation
+  II. Model Preference
+  III. Model Training
+  IV. Model Prediction
+  V. Model Utilization
+* The Logistic Regression Model with the `random_oversampler` model was used to determine credit risk classification accuracy. The model's performance was evaluated based on the accuracy score.
 
 ## Results
 
